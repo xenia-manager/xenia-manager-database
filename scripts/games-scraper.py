@@ -23,7 +23,7 @@ def extract_image_url(title_link):
 def clean_title(cell):
     title = cell.text.strip()
     # Remove footnotes like [note 9], [note 10], etc.
-    title = re.sub(r'\[\w+\]$', '', title)
+    title = re.sub(r'\[\w+\s*\d+\]', '', title)
     title = unicodedata.normalize('NFKD', title)
     return title
 
