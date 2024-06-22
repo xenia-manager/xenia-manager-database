@@ -1,4 +1,4 @@
-name: Scrape and Upload JSON
+name: Scrape xBox 360 titles from Wikipedia
 
 on:
   schedule:
