@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import re
+import unicodedata
 
 # Function to extract image URL from the title's Wikipedia page
 def extract_image_url(title_link):
@@ -17,6 +19,14 @@ def extract_image_url(title_link):
                     image_url = "https:" + image_url
                 return image_url
     return None
+
+def clean_title(cell):
+    title = cell.text.strip()
+    # Remove footnotes like [note 9], [note 10], etc.
+    title = re.sub(r'\[\w+\]$', '', title)
+    title = unicodedata.normalize('NFKD', title)
+    return title
+
 
 # List of Wikipedia URLs
 urls = [
@@ -41,7 +51,7 @@ for url in urls:
         rows = table.find_all('tr')
         for row in rows[1:]:
             cells = row.find_all(['td', 'th'])
-            title = cells[0].text.strip()
+            title = clean_title(cells[0])
             # Extract the hyperlink and its URL
             link = cells[0].find('a')
             if link:
