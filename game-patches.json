@@ -80,6 +80,22 @@
     }
   },
   {
+    "name": "4156082F - Marvel Ultimate Alliance 2.patch.toml",
+    "path": "patches/4156082F - Marvel Ultimate Alliance 2.patch.toml",
+    "sha": "d86916cc9b4a7bc2cb41e682efb428f0a0c82bbe",
+    "size": 933,
+    "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/4156082F%20-%20Marvel%20Ultimate%20Alliance%202.patch.toml?ref=main",
+    "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/4156082F%20-%20Marvel%20Ultimate%20Alliance%202.patch.toml",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/d86916cc9b4a7bc2cb41e682efb428f0a0c82bbe",
+    "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/4156082F%20-%20Marvel%20Ultimate%20Alliance%202.patch.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/4156082F%20-%20Marvel%20Ultimate%20Alliance%202.patch.toml?ref=main",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/d86916cc9b4a7bc2cb41e682efb428f0a0c82bbe",
+      "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/4156082F%20-%20Marvel%20Ultimate%20Alliance%202.patch.toml"
+    }
+  },
+  {
     "name": "4156084C - Transformers War for Cybertron.patch.toml",
     "path": "patches/4156084C - Transformers War for Cybertron.patch.toml",
     "sha": "2ef549543bd450664d44b5a6b09fa13a9e721dc4",
