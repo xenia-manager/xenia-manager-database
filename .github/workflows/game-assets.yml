@@ -24,10 +24,8 @@ jobs:
       - name: Run Python script
         run: python scripts/games-boxart-scraper.py
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add .
-          git diff-index --quiet HEAD || git commit -m "Add downloaded images"
-          git push
+      - name: Commit and push changes in chunks
+        run: python scripts/commit_and_push_chunks.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
