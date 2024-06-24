@@ -28,10 +28,10 @@ def download_and_organize_images(game_data):
     for game in game_data:
         game_name = game['Name']
 
-        url = game['Back']['Full Size']
+            url = game['Front']['Thumbnail']
         if url:
             image_name = f"{game_name.replace(' ', '_')}.jpg"
-            folder_path = os.path.join('Assets','Back','Full Size')
+            folder_path = os.path.join('Assets','Front','Thumbnail')
             os.makedirs(folder_path, exist_ok=True)
             file_path = os.path.join(folder_path, image_name)
             download_image(url, file_path)
