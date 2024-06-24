@@ -1,9 +1,6 @@
 name: Download and Upload Box Arts from Andy Declari Site
 
 on:
-  push:
-    branches:
-      - main  # adjust to your main branch name
   workflow_dispatch:
   
 jobs:
@@ -25,7 +22,7 @@ jobs:
           pip install beautifulsoup4
 
       - name: Run Python script
-        run: python games-boxart-scraper.py
+        run: python scripts/games-boxart-scraper.py
 
       - name: Commit and push changes
         run: |
