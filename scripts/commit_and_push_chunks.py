@@ -42,10 +42,21 @@ def commit_and_push(chunk, commit_message):
     # Push
     subprocess.run(['git', 'push'], check=True)
 
+def get_untracked_files():
+    result = subprocess.run(['git', 'ls-files', '--others', '--exclude-standard'], capture_output=True, text=True, check=True)
+    return result.stdout.splitlines()
+
 def main():
-    file_sizes = get_file_sizes('.')
+    # Get list of untracked files
+    untracked_files = get_untracked_files()
+
+    # Get sizes of untracked files only
+    file_sizes = [(filepath, os.path.getsize(filepath)) for filepath in untracked_files]
+
+    # Chunk files
     chunks = chunk_files(file_sizes)
 
+    # Commit and push each chunk
     for index, chunk in enumerate(chunks):
         commit_message = f"Add downloaded images, part {index + 1}"
         commit_and_push(chunk, commit_message)
