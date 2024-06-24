@@ -86,7 +86,7 @@ if response.status_code == 200:
         # Append the game dictionary to the game_data list
         game_data.append(game)
     
-    with open('games_data.json', 'w', encoding='utf-8') as json_file:
+    with open('games_database.json', 'w', encoding='utf-8') as json_file:
         json.dump(game_data, json_file, ensure_ascii=False, indent=4)
 
     print("Data scraped and saved successfully!")
