@@ -28,22 +28,17 @@ def download_and_organize_images(game_data):
     for game in game_data:
         game_name = game['Name']
 
-        for side in game:
-            if side == 'Name':
-                continue
-            
-            for size in game[side]:
-                url = game[side][size]
-                if url:
-                    image_name = f"{game_name.replace(' ', '_')}.jpg"
-                    folder_path = os.path.join('Assets',side.replace(' ', '_'), size.replace(' ', '_'))
-                    os.makedirs(folder_path, exist_ok=True)
-                    file_path = os.path.join(folder_path, image_name)
-                    download_image(url, file_path)
-                    print(f"Downloaded: {file_path}")
+        url = game['Front']['Full Size']
+        if url:
+            image_name = f"{game_name.replace(' ', '_')}.jpg"
+            folder_path = os.path.join('Assets','Front','Full Size')
+            os.makedirs(folder_path, exist_ok=True)
+            file_path = os.path.join(folder_path, image_name)
+            download_image(url, file_path)
+            print(f"Downloaded: {file_path}")
 
-                else:
-                    print(f"No {size} image found for {game_name} {side}.")
+        else:
+            print(f"No image found for {game_name}.")
 
 if __name__ == "__main__":
     scrape_and_download()
