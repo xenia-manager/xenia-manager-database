@@ -14,7 +14,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         sparse-checkout: |
-          game-patches.json
+          games_database.json
           scripts/andydecarli-games-scraper.py
         sparse-checkout-cone-mode: false
 
