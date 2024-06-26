@@ -60,15 +60,16 @@ for url in urls:
             else:
                 game_link = None
                 image_url = None
-
-            game_data = {
-                "Title": title,
-                "Link": game_link,
-                "Image URL": image_url
-            }
-            # Append the dictionary to the list
-            print(game_data)
-            xbox_360_titles.append(game_data)
+            
+            if title and (game_link or image_url):
+                game_data = {
+                    "Title": title,
+                    "Link": game_link,
+                    "Image URL": image_url
+                }
+                # Append the dictionary to the list
+                print(game_data)
+                xbox_360_titles.append(game_data)
 
 with open('gamesdb.json', 'w') as json_file:
     json.dump(xbox_360_titles, json_file, indent=4)
