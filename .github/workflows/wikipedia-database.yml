@@ -29,7 +29,7 @@ jobs:
         pip install requests beautifulsoup4
 
     - name: Run web scraper
-      run: python scripts/games-scraper.py
+      run: python scripts/wikipedia-games-scraper.py
 
     - name: Commit and push changes
       run: |
