@@ -15,6 +15,7 @@ jobs:
       with:
         sparse-checkout: |
           game-patches.json
+          scripts/andydecarli-games-scraper.py
         sparse-checkout-cone-mode: false
 
     - name: Set up Python
