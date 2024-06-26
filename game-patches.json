@@ -1282,16 +1282,16 @@
   {
     "name": "4D5307FA - Lost Odyssey.patch.toml",
     "path": "patches/4D5307FA - Lost Odyssey.patch.toml",
-    "sha": "a8d2a24df5b93582118159f1785cabb6db2884fe",
-    "size": 1566,
+    "sha": "94633f4a7e6799def928b095f28d50d9bcdd0193",
+    "size": 1836,
     "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/4D5307FA%20-%20Lost%20Odyssey.patch.toml?ref=main",
     "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/4D5307FA%20-%20Lost%20Odyssey.patch.toml",
-    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/a8d2a24df5b93582118159f1785cabb6db2884fe",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/94633f4a7e6799def928b095f28d50d9bcdd0193",
     "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/4D5307FA%20-%20Lost%20Odyssey.patch.toml",
     "type": "file",
     "_links": {
       "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/4D5307FA%20-%20Lost%20Odyssey.patch.toml?ref=main",
-      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/a8d2a24df5b93582118159f1785cabb6db2884fe",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/94633f4a7e6799def928b095f28d50d9bcdd0193",
       "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/4D5307FA%20-%20Lost%20Odyssey.patch.toml"
     }
   },
