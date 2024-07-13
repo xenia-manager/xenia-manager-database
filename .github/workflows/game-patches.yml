@@ -18,9 +18,16 @@ jobs:
         sparse-checkout-cone-mode: false
 
     - name: Fetch JSON file
-      run: curl -o game-patches.json https://api.github.com/repos/xenia-canary/game-patches/contents/patches
+      id: fetch-json
+      run: |
+        HTTP_STATUS=$(curl -o game-patches.json -s -w "%{http_code}" https://api.github.com/repos/xenia-canary/game-patches/contents/patches)
+        if [ "$HTTP_STATUS" -ne 200 ]; then
+          echo "Failed to fetch JSON file: HTTP status $HTTP_STATUS"
+          exit 1
+        fi
 
     - name: Commit and push changes
+      if: success() # Only run if previous steps succeeded
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
