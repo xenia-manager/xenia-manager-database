@@ -71,7 +71,7 @@ if response.status_code == 200:
 
         # Create an object for the current game
         game = {
-            'Title': name,
+            'Title': name.replace(':', ' -'),
             'Front': {
                 'Full Size': front_cover_full_size,
                 'Thumbnail': front_cover_thumbnail
