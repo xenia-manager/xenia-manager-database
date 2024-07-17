@@ -25,6 +25,7 @@ def clean_title(cell):
     # Remove footnotes like [note 9], [note 10], etc.
     title = re.sub(r'\[\w+\s*\d+\]', '', title)
     title = unicodedata.normalize('NFKD', title)
+    title = title.replace(':', '-')
     return title
 
 
