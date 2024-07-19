@@ -26,7 +26,7 @@ def scrape_and_download():
 
 def download_and_organize_images(game_data):
     for game in game_data:
-        game_name = game['Name']
+        game_name = game['Title']
 
         url = game['Front']['Thumbnail']
         if url:
