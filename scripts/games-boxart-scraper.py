@@ -31,7 +31,7 @@ def download_and_organize_images(game_data):
         url = game['Front']['Thumbnail']
         if url:
             image_name = f"{game_name.replace(' ', '_')}.jpg"
-            folder_path = os.path.join('Assets','Back','Thumbnail')
+            folder_path = os.path.join('Assets','Front','Thumbnail')
             os.makedirs(folder_path, exist_ok=True)
             file_path = os.path.join(folder_path, image_name)
             download_image(url, file_path)
