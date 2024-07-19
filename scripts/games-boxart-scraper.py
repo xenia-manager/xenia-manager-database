@@ -13,7 +13,7 @@ def download_image(url, target_path):
 
 def scrape_and_download():
     # URL of the JSON file containing game data
-    json_url = 'https://raw.githubusercontent.com/xenia-manager/patches/main/games_database.json'
+    json_url = 'https://raw.githubusercontent.com/xenia-manager/patches/dev/games_database.json'
     try:
         response = requests.get(json_url)
         if response.status_code == 200:
