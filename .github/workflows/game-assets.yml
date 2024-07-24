@@ -15,6 +15,7 @@ jobs:
             xbox_marketplace_games.json
             scripts/xbox-marketplace-boxart-scraper.py
             scripts/commit_and_push_chunks.py
+            Assets/Marketplace/Boxarts
           sparse-checkout-cone-mode: false
 
       - name: Set up Python
