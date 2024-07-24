@@ -27,7 +27,7 @@ jobs:
           pip install beautifulsoup4
 
       - name: Run Python script
-        run: python scripts/games-boxart-scraper.py
+        run: python scripts/xbox-marketplace-boxart-scraper.py
         
       - name: Configure Git
         run: |
