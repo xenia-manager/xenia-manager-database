@@ -1,4 +1,4 @@
-name: Download and Upload Box Arts from Andy Declari Site
+name: Download and Upload Box Arts
 
 on:
   workflow_dispatch:
@@ -9,10 +9,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            xbox_marketplace_games.json
+            scripts/xbox-marketplace-boxart-scraper.py
+          sparse-checkout-cone-mode: false
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'  # Choose your Python version
 
