@@ -1,8 +1,6 @@
 name: Scrape xBox 360 titles from Andy Declari site
 
 on:
-  schedule:
-    - cron: '0 0 1 * *'
   workflow_dispatch:
 
 jobs:
