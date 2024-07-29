@@ -1,6 +1,6 @@
 # Xenia Manager Database
 
-Contains .JSON files for xenia game patches and games, alongside their box arts (Front and Back).
+This is just a backup for game covers gathered from Andy Decarli's website and Xbox Marketplace.
 
 ## Credits
 - [Andy Decarli's Video Game Collection Website](https://andydecarli.com/)
