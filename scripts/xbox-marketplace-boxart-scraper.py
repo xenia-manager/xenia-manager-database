@@ -13,7 +13,7 @@ def download_image(url, target_path):
 
 def scrape_and_download():
     # URL of the JSON file containing game data
-    json_url = 'https://raw.githubusercontent.com/xenia-manager/xenia-manager-database/main/xbox_marketplace_games.json'
+    json_url = 'https://gist.githubusercontent.com/shazzaam7/16586d083134186e31ac8e95a32c9185/raw/0388624d557bb94c7c4074528f467b69363c3b93/xbox360_marketplace_games_list.json'
     try:
         response = requests.get(json_url)
         if response.status_code == 200:
@@ -26,10 +26,10 @@ def scrape_and_download():
 
 def download_and_organize_images(game_data):
     for game in game_data:
-        url = game["Box art"]
+        url = game["Icon"]
         if url:
             image_name = f"{game['ID']}.jpg"
-            folder_path = os.path.join("Assets","Marketplace","Boxarts")
+            folder_path = os.path.join("Assets","Marketplace","Icons")
             os.makedirs(folder_path, exist_ok=True)
             file_path = os.path.join(folder_path, image_name)
             download_image(url, file_path)
