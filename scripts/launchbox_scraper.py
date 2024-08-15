@@ -19,7 +19,6 @@ def getgamecontent(gamelinks):
         titleparse = soup.find('h1')
         if titleparse:
             title = titleparse.text.strip().replace(':',' -')
-            print(title)
 
         # Artwork
         artwork = {
