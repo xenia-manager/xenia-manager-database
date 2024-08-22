@@ -160,6 +160,38 @@
     }
   },
   {
+    "name": "424107DC - Dragon Ball Z Burst Limit (EU).patch.toml",
+    "path": "patches/424107DC - Dragon Ball Z Burst Limit (EU).patch.toml",
+    "sha": "7a43749002ab9afb40888d4d551050eac87240f3",
+    "size": 1051,
+    "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(EU).patch.toml?ref=main",
+    "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(EU).patch.toml",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/7a43749002ab9afb40888d4d551050eac87240f3",
+    "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(EU).patch.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(EU).patch.toml?ref=main",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/7a43749002ab9afb40888d4d551050eac87240f3",
+      "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(EU).patch.toml"
+    }
+  },
+  {
+    "name": "424107DC - Dragon Ball Z Burst Limit (US).patch.toml",
+    "path": "patches/424107DC - Dragon Ball Z Burst Limit (US).patch.toml",
+    "sha": "70c36dda15a202d4449d85fd76ec414c91655f46",
+    "size": 1051,
+    "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(US).patch.toml?ref=main",
+    "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(US).patch.toml",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/70c36dda15a202d4449d85fd76ec414c91655f46",
+    "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(US).patch.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(US).patch.toml?ref=main",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/70c36dda15a202d4449d85fd76ec414c91655f46",
+      "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/424107DC%20-%20Dragon%20Ball%20Z%20Burst%20Limit%20(US).patch.toml"
+    }
+  },
+  {
     "name": "425307D1 - The Elder Scrolls IV Oblivion (GOTY).patch.toml",
     "path": "patches/425307D1 - The Elder Scrolls IV Oblivion (GOTY).patch.toml",
     "sha": "4847ba7984edcb85b21647e500ae2d99784da1d9",
@@ -205,6 +237,22 @@
       "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/425307E6%20-%20The%20Elder%20Scrolls%20V%20Skyrim.patch.toml?ref=main",
       "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/1e7259b2a81282c6bb216d54d4b5df53780cda95",
       "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/425307E6%20-%20The%20Elder%20Scrolls%20V%20Skyrim.patch.toml"
+    }
+  },
+  {
+    "name": "425607D3 - Turok.patch.toml",
+    "path": "patches/425607D3 - Turok.patch.toml",
+    "sha": "d51d5359839e2988d68dbf45234d651485f941d8",
+    "size": 466,
+    "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/425607D3%20-%20Turok.patch.toml?ref=main",
+    "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/425607D3%20-%20Turok.patch.toml",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/d51d5359839e2988d68dbf45234d651485f941d8",
+    "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/425607D3%20-%20Turok.patch.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/425607D3%20-%20Turok.patch.toml?ref=main",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/d51d5359839e2988d68dbf45234d651485f941d8",
+      "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/425607D3%20-%20Turok.patch.toml"
     }
   },
   {
@@ -1616,6 +1664,22 @@
     }
   },
   {
+    "name": "4D538803 - Pocketbike Racer.patch.toml",
+    "path": "patches/4D538803 - Pocketbike Racer.patch.toml",
+    "sha": "beb71a3d00bd5c0f13649e452833a0b142cd4bdc",
+    "size": 502,
+    "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/4D538803%20-%20Pocketbike%20Racer.patch.toml?ref=main",
+    "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/4D538803%20-%20Pocketbike%20Racer.patch.toml",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/beb71a3d00bd5c0f13649e452833a0b142cd4bdc",
+    "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/4D538803%20-%20Pocketbike%20Racer.patch.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/4D538803%20-%20Pocketbike%20Racer.patch.toml?ref=main",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/beb71a3d00bd5c0f13649e452833a0b142cd4bdc",
+      "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/4D538803%20-%20Pocketbike%20Racer.patch.toml"
+    }
+  },
+  {
     "name": "4D53880C - Halo 3 Alpha.patch.toml",
     "path": "patches/4D53880C - Halo 3 Alpha.patch.toml",
     "sha": "251f1b48171b17bba2e53ddd61d06c6b2df4641b",
@@ -1906,16 +1970,16 @@
   {
     "name": "53510806 - Final Fantasy XIII-2.patch.toml",
     "path": "patches/53510806 - Final Fantasy XIII-2.patch.toml",
-    "sha": "56291a7692afa38cc12117ae602fe4340d1affbc",
-    "size": 1822,
+    "sha": "f6316740ffc62fd1214b5fcaa903deb530bd6a9e",
+    "size": 1815,
     "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/53510806%20-%20Final%20Fantasy%20XIII-2.patch.toml?ref=main",
     "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/53510806%20-%20Final%20Fantasy%20XIII-2.patch.toml",
-    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/56291a7692afa38cc12117ae602fe4340d1affbc",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/f6316740ffc62fd1214b5fcaa903deb530bd6a9e",
     "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/53510806%20-%20Final%20Fantasy%20XIII-2.patch.toml",
     "type": "file",
     "_links": {
       "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/53510806%20-%20Final%20Fantasy%20XIII-2.patch.toml?ref=main",
-      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/56291a7692afa38cc12117ae602fe4340d1affbc",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/f6316740ffc62fd1214b5fcaa903deb530bd6a9e",
       "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/53510806%20-%20Final%20Fantasy%20XIII-2.patch.toml"
     }
   },
@@ -1936,18 +2000,66 @@
     }
   },
   {
+    "name": "544307D1 - DEAD OR ALIVE 4 (PROTOTYPE).patch.toml",
+    "path": "patches/544307D1 - DEAD OR ALIVE 4 (PROTOTYPE).patch.toml",
+    "sha": "926eff28bf3600327bd05d3a0b95dbdcff3a8138",
+    "size": 288,
+    "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(PROTOTYPE).patch.toml?ref=main",
+    "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(PROTOTYPE).patch.toml",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/926eff28bf3600327bd05d3a0b95dbdcff3a8138",
+    "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(PROTOTYPE).patch.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(PROTOTYPE).patch.toml?ref=main",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/926eff28bf3600327bd05d3a0b95dbdcff3a8138",
+      "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(PROTOTYPE).patch.toml"
+    }
+  },
+  {
+    "name": "544307D1 - DEAD OR ALIVE 4 (Rev1).patch.toml",
+    "path": "patches/544307D1 - DEAD OR ALIVE 4 (Rev1).patch.toml",
+    "sha": "6fc5265873f5c716194064fe4cc0f593c673e933",
+    "size": 4575,
+    "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(Rev1).patch.toml?ref=main",
+    "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(Rev1).patch.toml",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/6fc5265873f5c716194064fe4cc0f593c673e933",
+    "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(Rev1).patch.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(Rev1).patch.toml?ref=main",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/6fc5265873f5c716194064fe4cc0f593c673e933",
+      "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(Rev1).patch.toml"
+    }
+  },
+  {
+    "name": "544307D1 - DEAD OR ALIVE 4 (TU1).patch.toml",
+    "path": "patches/544307D1 - DEAD OR ALIVE 4 (TU1).patch.toml",
+    "sha": "61e1efa0a8eb1e20523c71d1ceb20b09c762d6b5",
+    "size": 4562,
+    "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(TU1).patch.toml?ref=main",
+    "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(TU1).patch.toml",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/61e1efa0a8eb1e20523c71d1ceb20b09c762d6b5",
+    "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(TU1).patch.toml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(TU1).patch.toml?ref=main",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/61e1efa0a8eb1e20523c71d1ceb20b09c762d6b5",
+      "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204%20(TU1).patch.toml"
+    }
+  },
+  {
     "name": "544307D1 - DEAD OR ALIVE 4.patch.toml",
     "path": "patches/544307D1 - DEAD OR ALIVE 4.patch.toml",
-    "sha": "2e27850aeae7f3e6cb0ad85ad5261b673598dfe3",
-    "size": 1867,
+    "sha": "077da93ac6bc804b96341b1f666d74a4598a8983",
+    "size": 4568,
     "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204.patch.toml?ref=main",
     "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204.patch.toml",
-    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/2e27850aeae7f3e6cb0ad85ad5261b673598dfe3",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/077da93ac6bc804b96341b1f666d74a4598a8983",
     "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204.patch.toml",
     "type": "file",
     "_links": {
       "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204.patch.toml?ref=main",
-      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/2e27850aeae7f3e6cb0ad85ad5261b673598dfe3",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/077da93ac6bc804b96341b1f666d74a4598a8983",
       "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/544307D1%20-%20DEAD%20OR%20ALIVE%204.patch.toml"
     }
   },
@@ -2050,32 +2162,32 @@
   {
     "name": "545107FC - Saints Row 2 (TU1).patch.toml",
     "path": "patches/545107FC - Saints Row 2 (TU1).patch.toml",
-    "sha": "04fbe382743c9e9c6938709cfdbbdda4c585a7b8",
-    "size": 1730,
+    "sha": "be11e021f0fba447717338c78ed9280a88523eb6",
+    "size": 3731,
     "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/545107FC%20-%20Saints%20Row%202%20(TU1).patch.toml?ref=main",
     "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/545107FC%20-%20Saints%20Row%202%20(TU1).patch.toml",
-    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/04fbe382743c9e9c6938709cfdbbdda4c585a7b8",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/be11e021f0fba447717338c78ed9280a88523eb6",
     "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/545107FC%20-%20Saints%20Row%202%20(TU1).patch.toml",
     "type": "file",
     "_links": {
       "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/545107FC%20-%20Saints%20Row%202%20(TU1).patch.toml?ref=main",
-      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/04fbe382743c9e9c6938709cfdbbdda4c585a7b8",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/be11e021f0fba447717338c78ed9280a88523eb6",
       "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/545107FC%20-%20Saints%20Row%202%20(TU1).patch.toml"
     }
   },
   {
     "name": "545107FC - Saints Row 2.patch.toml",
     "path": "patches/545107FC - Saints Row 2.patch.toml",
-    "sha": "75977cf8af5e349776bf02a9ad63af82931b3dcc",
-    "size": 1728,
+    "sha": "9c6d796c9f0c06d4f98bba196fc6cd7897ca6493",
+    "size": 4424,
     "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/545107FC%20-%20Saints%20Row%202.patch.toml?ref=main",
     "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/545107FC%20-%20Saints%20Row%202.patch.toml",
-    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/75977cf8af5e349776bf02a9ad63af82931b3dcc",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/9c6d796c9f0c06d4f98bba196fc6cd7897ca6493",
     "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/545107FC%20-%20Saints%20Row%202.patch.toml",
     "type": "file",
     "_links": {
       "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/545107FC%20-%20Saints%20Row%202.patch.toml?ref=main",
-      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/75977cf8af5e349776bf02a9ad63af82931b3dcc",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/9c6d796c9f0c06d4f98bba196fc6cd7897ca6493",
       "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/545107FC%20-%20Saints%20Row%202.patch.toml"
     }
   },
@@ -2210,32 +2322,32 @@
   {
     "name": "545407F2 - Grand Theft Auto IV (TU8).patch.toml",
     "path": "patches/545407F2 - Grand Theft Auto IV (TU8).patch.toml",
-    "sha": "30f3db6aa03fd1756a492c9782d35f39cbf351ab",
-    "size": 893,
+    "sha": "d8e17ad0e7e49e31f5130e330dce68a3cd48f01e",
+    "size": 1117,
     "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV%20(TU8).patch.toml?ref=main",
     "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV%20(TU8).patch.toml",
-    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/30f3db6aa03fd1756a492c9782d35f39cbf351ab",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/d8e17ad0e7e49e31f5130e330dce68a3cd48f01e",
     "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV%20(TU8).patch.toml",
     "type": "file",
     "_links": {
       "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV%20(TU8).patch.toml?ref=main",
-      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/30f3db6aa03fd1756a492c9782d35f39cbf351ab",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/d8e17ad0e7e49e31f5130e330dce68a3cd48f01e",
       "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV%20(TU8).patch.toml"
     }
   },
   {
     "name": "545407F2 - Grand Theft Auto IV.patch.toml",
     "path": "patches/545407F2 - Grand Theft Auto IV.patch.toml",
-    "sha": "01dbcbea53aa9225088545b4189b5d2d58dad194",
-    "size": 871,
+    "sha": "aeed538aeccef13c33017ce38a7d1c6b3af64d8b",
+    "size": 1095,
     "url": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV.patch.toml?ref=main",
     "html_url": "https://github.com/xenia-canary/game-patches/blob/main/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV.patch.toml",
-    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/01dbcbea53aa9225088545b4189b5d2d58dad194",
+    "git_url": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/aeed538aeccef13c33017ce38a7d1c6b3af64d8b",
     "download_url": "https://raw.githubusercontent.com/xenia-canary/game-patches/main/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV.patch.toml",
     "type": "file",
     "_links": {
       "self": "https://api.github.com/repos/xenia-canary/game-patches/contents/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV.patch.toml?ref=main",
-      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/01dbcbea53aa9225088545b4189b5d2d58dad194",
+      "git": "https://api.github.com/repos/xenia-canary/game-patches/git/blobs/aeed538aeccef13c33017ce38a7d1c6b3af64d8b",
       "html": "https://github.com/xenia-canary/game-patches/blob/main/patches/545407F2%20-%20Grand%20Theft%20Auto%20IV.patch.toml"
     }
   },
