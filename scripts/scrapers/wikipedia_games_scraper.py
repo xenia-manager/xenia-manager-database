@@ -72,7 +72,7 @@ for url in urls:
                 print(game_data)
                 xbox_360_titles.append(game_data)
 
-with open('gamesdb.json', 'w') as json_file:
+with open('wikipedia_games.json', 'w') as json_file:
     json.dump(xbox_360_titles, json_file, indent=4)
 
 print("Data scraped and saved successfully!")
