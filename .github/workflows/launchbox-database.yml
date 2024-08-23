@@ -13,7 +13,7 @@ jobs:
       with:
         sparse-checkout: |
           launchbox_games.json
-          scripts/launchbox_scraper.py
+          scripts/scrapers/launchbox_scraper.py
         sparse-checkout-cone-mode: false
 
     - name: Set up Python
