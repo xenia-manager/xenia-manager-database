@@ -12,8 +12,8 @@ jobs:
       uses: actions/checkout@v4
       with:
         sparse-checkout: |
-          gamesdb.json
-          scripts/wikipedia-games-scraper.py
+          wikipedia_games.json
+          scripts/scrapers/wikipedia-games-scraper.py
         sparse-checkout-cone-mode: false
 
     - name: Set up Python
@@ -33,7 +33,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add gamesdb.json
+        git add wikipedia_games.json
         git diff-index --quiet HEAD || git commit -m "Update gamesDB.json"
         git push
       env:
