@@ -13,7 +13,7 @@ jobs:
       with:
         sparse-checkout: |
           database/wikipedia_games.json
-          scripts/scrapers/wikipedia-games-scraper.py
+          scripts/scrapers/wikipedia_games_scraper.py
         sparse-checkout-cone-mode: false
 
     - name: Set up Python
@@ -27,7 +27,7 @@ jobs:
         pip install requests beautifulsoup4
 
     - name: Run Wikipedia Scraper
-      run: scripts/scrapers/wikipedia-games-scraper.py
+      run: scripts/scrapers/wikipedia_games_scraper.py
 
     - name: Commit and push changes
       run: |
