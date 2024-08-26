@@ -30,4 +30,3 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git commit -m "Renamed 'scripts' directory to 'Scripts'"
         git push
-      if: success() && steps.rename-directory.outputs.any-changes == 'true'
