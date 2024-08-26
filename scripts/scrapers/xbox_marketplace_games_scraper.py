@@ -79,5 +79,5 @@ for game in initial_json:
         print(f"Failed to fetch data for titleid: {titleid}, status code: {response.status_code}")
 
 # Save the output data to a JSON file
-with open('xbox_marketplace_games.json', 'w', encoding='utf-8') as f:
+with open('database/xbox_marketplace_games.json', 'w', encoding='utf-8') as f:
     json.dump(output_data, f, ensure_ascii=False, indent=4)
