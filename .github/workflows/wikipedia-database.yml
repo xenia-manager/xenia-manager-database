@@ -1,9 +1,5 @@
 name: Scrape xBox 360 titles from Wikipedia
 
-permissions:
-  contents: write
-  actions: read
-
 on:
   workflow_dispatch:
 
@@ -30,11 +26,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4
 
-    - name: Set execute permissions for scraper
-      run: chmod +x scripts/scrapers/wikipedia_games_scraper.py
-
     - name: Run Wikipedia Scraper
-      run: scripts/scrapers/wikipedia_games_scraper.py
+      run: python scripts/scrapers/wikipedia_games_scraper.py
 
     - name: Commit and push changes
       run: |
