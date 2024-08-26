@@ -2,7 +2,7 @@ name: Update Game Patches
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every 24 hours
+    - cron: '0 0,12 * * *'  # Runs every 24 hours
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -15,12 +15,13 @@ jobs:
       with:
         sparse-checkout: |
           game-patches.json
+          Database/game-patches.json
         sparse-checkout-cone-mode: false
 
     - name: Fetch JSON file
       id: fetch-json
       run: |
-        HTTP_STATUS=$(curl -o game-patches.json -s -w "%{http_code}" https://api.github.com/repos/xenia-canary/game-patches/contents/patches)
+        HTTP_STATUS=$(curl -o Database/game-patches.json -s -w "%{http_code}" https://api.github.com/repos/xenia-canary/game-patches/contents/patches)
         if [ "$HTTP_STATUS" -ne 200 ]; then
           echo "Failed to fetch JSON file: HTTP status $HTTP_STATUS"
           exit 1
@@ -31,7 +32,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add game-patches.json
+        git add Database/game-patches.json
         git diff-index --quiet HEAD || git commit -m "Update game patches"
         git push
       env:
