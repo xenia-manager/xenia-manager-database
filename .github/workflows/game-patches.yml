@@ -18,6 +18,9 @@ jobs:
           Database/game-patches.json
         sparse-checkout-cone-mode: false
 
+    - name: Create Database Directory
+      run: mkdir -p Database
+
     - name: Fetch JSON file
       id: fetch-json
       run: |
