@@ -96,5 +96,11 @@ def getNumberOfPages():
 #print(getNumberOfPages())
 getgameurl()
 
-with open('launchbox_games.json', 'w') as json_file:
+# Ensure the database folder exists
+output_dir = "database"
+os.makedirs(output_dir, exist_ok=True)
+
+# Save the JSON file in the database folder
+output_file_path = os.path.join(output_dir, 'launchbox_games.json')
+with open(output_file_path, 'w') as json_file:
     json.dump(games, json_file, indent=4)
