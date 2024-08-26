@@ -2,6 +2,7 @@
 import json
 import requests
 from bs4 import BeautifulSoup
+import os
 
 # URL template
 base_url = "https://gamesdb.launchbox-app.com"
