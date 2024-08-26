@@ -3,9 +3,16 @@ import requests
 from lxml import etree
 import re
 
-# Read initial JSON data from a file
-with open('combined_output.json', 'r', encoding='utf-8') as file:
-    initial_json = json.load(file)
+# URL of the JSON data
+json_url = "https://gist.githubusercontent.com/shazzaam7/dcaf5d68f42788570d5cff92bf4b275f/raw/79e52001d90178599fdca0b21e012acce34e78aa/xbox_marketplace_games.json"
+
+# Fetch JSON data from the provided URL
+response = requests.get(json_url)
+if response.status_code == 200:
+    initial_json = response.json()
+else:
+    print(f"Failed to fetch JSON data from the URL, status code: {response.status_code}")
+    initial_json = []
 
 # URL template
 url_template = "http://marketplace-xb.xboxlive.com/marketplacecatalog/v1/product/en-US/66ACD000-77FE-1000-9115-D802{id}?bodytypes=1.3&detailview=detaillevel5&pagenum=1&pagesize=1&stores=1&tiers=2.3&offerfilter=1&producttypes=1.5.18.19.20.21.22.23.30.34.37.46.47.61"
