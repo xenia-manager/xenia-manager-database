@@ -30,6 +30,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4
 
+    - name: Set execute permissions for scraper
+      run: chmod +x scripts/scrapers/wikipedia_games_scraper.py
+
     - name: Run Wikipedia Scraper
       run: scripts/scrapers/wikipedia_games_scraper.py
 
