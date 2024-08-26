@@ -1,5 +1,9 @@
 name: Scrape xBox 360 titles from Wikipedia
 
+permissions:
+  contents: write
+  actions: read
+
 on:
   workflow_dispatch:
 
