@@ -13,6 +13,7 @@ jobs:
       with:
           sparse-checkout: |
             scripts/
+            Scripts/
           sparse-checkout-cone-mode: false
 
     - name: Rename 'scripts' to 'Scripts'
