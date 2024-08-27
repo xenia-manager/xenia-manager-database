@@ -1,4 +1,4 @@
-# Xenia Manager Database (This repo is due to deletion)
+# Xenia Manager Database (This repo is being replaced)
 
 This is just a backup for game covers gathered from Andy Decarli's website and Xbox Marketplace.
 
